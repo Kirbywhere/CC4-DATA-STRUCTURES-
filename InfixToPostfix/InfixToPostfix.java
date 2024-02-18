@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Stack;
 
-public class infixToPostfix {
+public class Main {
 
     static boolean isOperand(char c) {
         return Character.isLetterOrDigit(c) || c == '"';
